@@ -1,4 +1,3 @@
-# ATS-RESUME-ANALYZER
 # 📄 AI Resume ATS Checker
 
 A simple web app that gives your resume an **estimated ATS score** and clear, actionable tips to improve it. Built with [Streamlit](https://streamlit.io) and the Google Gemini API.
@@ -78,14 +77,14 @@ To change a secret later, open your app's settings on Streamlit Community Cloud 
 | Secret | Purpose |
 | --- | --- |
 | `GEMINI_API_KEY` | **Required.** Your Gemini API key. |
-| `GEMINI_MODEL` | Use a different Gemini model name. Default: `gemini-3.7-flash`. Change this if Google renames or retires a model. |
+| `GEMINI_MODEL` | Use a different Gemini model name. Default: `gemini-3.8-flash`. Change this if Google renames or retires a model. |
 | `APP_PASSWORD` | If set, visitors must enter this password before using the app. Recommended if your app link is public, because every analysis uses **your** API quota. |
 
 Example:
 
 ```toml
 GEMINI_API_KEY = "paste-your-key-here"
-GEMINI_MODEL = "gemini-3.7-flash"
+GEMINI_MODEL = "gemini-3.8-flash"
 APP_PASSWORD = "choose-a-strong-password"
 ```
 
