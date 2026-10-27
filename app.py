@@ -41,7 +41,7 @@ from pypdf import PdfReader
 # --------------------------------------------------------------------------
 # Default Gemini Flash model. You can override it without editing code by adding
 # GEMINI_MODEL = "some-other-model" to your Streamlit secrets.
-GEMINI_MODEL = "gemini-3.8-flash"
+DEFAULT_MODEL = "gemini-3.8-flash"
 
 MAX_FILE_MB = 5               # biggest resume file we accept
 MAX_PDF_PAGES = 10            # extra PDF pages are ignored
